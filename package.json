@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "release": "release-it"
+    "release": "release-it --verbose"
   },
   "dependencies": {
     "release-it": "^15.6.0",
