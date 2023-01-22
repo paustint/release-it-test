@@ -1,0 +1,15 @@
+{
+  "git": {
+    "commitMessage": "chore: release ${version}",
+    "tag": true,
+    "tagName": "v${version}"
+  },
+  "npm": {
+    "publish": false
+  },
+  "github": false,
+  "hooks": {
+    "before:bump": "yarn build",
+    "after:bump": "git checkout -- package.json"
+  }
+}
