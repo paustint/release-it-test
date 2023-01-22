@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
     "release": "release-it --verbose"
   },
   "dependencies": {
+    "@types/node": "^18.11.18",
     "release-it": "^15.6.0",
     "typescript": "^4.9.4"
   }

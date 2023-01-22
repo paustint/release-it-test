@@ -9,7 +9,6 @@
   },
   "github": false,
   "hooks": {
-    "before:bump": "yarn build",
     "after:bump": "git checkout -- package.json"
   }
 }
